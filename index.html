@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="app.js"></script>
-    <title>JS</title>
+    <title>Fahrenheit Celsius converter</title>
 </head>
 <body>
     <H1>
-        Hello Liang
+        Fahrenheit Celsius converter
     </H1>
+    <input id="inputValue" type="number">
+    <button onclick="toCelsiusProgram(document.getElementById('inputValue').value)">แปลงเป็น Celsius</button>
+    <br>
+    <input id="inputFahrenheit" type="number">
+    <button onclick="toFahrenheitProgram(document.getElementById('inputFahrenheit').value)">แปลงเป็น Fahrenheit</button>
+    <script src="app.js"></script>
+
+
 
 </body>
 </html>
